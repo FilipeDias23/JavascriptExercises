@@ -8,10 +8,10 @@ const votingAge = function (age) {
     }
     ;
     if (age < 21 ) {
-      console.log("You cant be elected as president")
+      return "You cant be elected as president"
     }
     else {
-      console.log("You can be elected as President")
+      return "You can be elected as President"
     }
     
   }
